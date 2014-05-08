@@ -1,0 +1,1 @@
+Emberbook.ApplicationAdapter = DS.FixtureAdapter;
