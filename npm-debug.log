@@ -1,0 +1,615 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/action/.nvm/v0.10.11/bin/node',
+1 verbose cli   '/home/action/.nvm/v0.10.11/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.10.11
+4 verbose read json /home/action/EmberBook/package.json
+5 warn package.json emberbook@0.0.0 No repository field.
+6 warn package.json emberbook@0.0.0 No readme data.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/action/EmberBook',
+8 verbose install   [ 'grunt',
+8 verbose install     'grunt-contrib-copy',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-coffee',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-compass',
+8 verbose install     'grunt-contrib-jshint',
+8 verbose install     'grunt-contrib-cssmin',
+8 verbose install     'grunt-contrib-connect',
+8 verbose install     'grunt-contrib-clean',
+8 verbose install     'grunt-contrib-htmlmin',
+8 verbose install     'grunt-contrib-imagemin',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-rev',
+8 verbose install     'grunt-usemin',
+8 verbose install     'grunt-mocha',
+8 verbose install     'grunt-open',
+8 verbose install     'grunt-svgmin',
+8 verbose install     'grunt-concurrent',
+8 verbose install     'load-grunt-tasks',
+8 verbose install     'connect-livereload',
+8 verbose install     'grunt-ember-templates',
+8 verbose install     'time-grunt',
+8 verbose install     'grunt-replace',
+8 verbose install     'jshint-stylish',
+8 verbose install     'grunt-neuter',
+8 verbose install     'express',
+8 verbose install     'less-middleware',
+8 verbose install     'handlebars',
+8 verbose install     'express3-handlebars',
+8 verbose install     'mongoose',
+8 verbose install     'passport-local',
+8 verbose install     'passport',
+8 verbose install     'connect-flash',
+8 verbose install     'coffee-script',
+8 verbose install     'connect-ensure-login',
+8 verbose install     'password-hash',
+8 verbose install     'socket.io',
+8 verbose install     'static-favicon',
+8 verbose install     'morgan',
+8 verbose install     'cookie-parser',
+8 verbose install     'express-session',
+8 verbose install     'express-json',
+8 verbose install     'method-override',
+8 verbose install     'errorhandler' ] ]
+9 verbose from cache /home/action/EmberBook/package.json
+10 info preinstall emberbook@0.0.0
+11 verbose read json /home/action/EmberBook/node_modules/chalk/package.json
+12 verbose read json /home/action/EmberBook/node_modules/coffee-script/package.json
+13 verbose read json /home/action/EmberBook/node_modules/connect-ensure-login/package.json
+14 verbose read json /home/action/EmberBook/node_modules/connect-flash/package.json
+15 verbose read json /home/action/EmberBook/node_modules/connect-livereload/package.json
+16 verbose read json /home/action/EmberBook/node_modules/cookie-parser/package.json
+17 verbose read json /home/action/EmberBook/node_modules/errorhandler/package.json
+18 verbose read json /home/action/EmberBook/node_modules/express/package.json
+19 verbose read json /home/action/EmberBook/node_modules/express-json/package.json
+20 verbose read json /home/action/EmberBook/node_modules/express-session/package.json
+21 verbose read json /home/action/EmberBook/node_modules/express3-handlebars/package.json
+22 verbose read json /home/action/EmberBook/node_modules/grunt/package.json
+23 verbose read json /home/action/EmberBook/node_modules/grunt-concurrent/package.json
+24 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-clean/package.json
+25 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-coffee/package.json
+26 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-compass/package.json
+27 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-concat/package.json
+28 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-connect/package.json
+29 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-copy/package.json
+30 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-cssmin/package.json
+31 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-htmlmin/package.json
+32 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-jshint/package.json
+33 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-uglify/package.json
+34 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-watch/package.json
+35 verbose read json /home/action/EmberBook/node_modules/grunt-ember-templates/package.json
+36 verbose read json /home/action/EmberBook/node_modules/grunt-mocha/package.json
+37 verbose read json /home/action/EmberBook/node_modules/grunt-neuter/package.json
+38 verbose read json /home/action/EmberBook/node_modules/grunt-open/package.json
+39 verbose read json /home/action/EmberBook/node_modules/grunt-replace/package.json
+40 verbose read json /home/action/EmberBook/node_modules/grunt-rev/package.json
+41 verbose read json /home/action/EmberBook/node_modules/grunt-svgmin/package.json
+42 verbose read json /home/action/EmberBook/node_modules/grunt-usemin/package.json
+43 verbose read json /home/action/EmberBook/node_modules/handlebars/package.json
+44 verbose read json /home/action/EmberBook/node_modules/jshint-stylish/package.json
+45 verbose read json /home/action/EmberBook/node_modules/less-middleware/package.json
+46 verbose read json /home/action/EmberBook/node_modules/load-grunt-tasks/package.json
+47 verbose read json /home/action/EmberBook/node_modules/method-override/package.json
+48 verbose read json /home/action/EmberBook/node_modules/mongoose/package.json
+49 verbose read json /home/action/EmberBook/node_modules/morgan/package.json
+50 verbose read json /home/action/EmberBook/node_modules/passport/package.json
+51 verbose read json /home/action/EmberBook/node_modules/passport-local/package.json
+52 verbose read json /home/action/EmberBook/node_modules/password-hash/package.json
+53 verbose read json /home/action/EmberBook/node_modules/socket.io/package.json
+54 verbose read json /home/action/EmberBook/node_modules/static-favicon/package.json
+55 verbose read json /home/action/EmberBook/node_modules/time-grunt/package.json
+56 verbose from cache /home/action/EmberBook/package.json
+57 verbose readDependencies using package.json deps
+58 verbose from cache /home/action/EmberBook/node_modules/chalk/package.json
+59 verbose from cache /home/action/EmberBook/node_modules/coffee-script/package.json
+60 verbose from cache /home/action/EmberBook/node_modules/connect-ensure-login/package.json
+61 verbose from cache /home/action/EmberBook/node_modules/connect-flash/package.json
+62 verbose from cache /home/action/EmberBook/node_modules/connect-livereload/package.json
+63 verbose from cache /home/action/EmberBook/node_modules/cookie-parser/package.json
+64 verbose from cache /home/action/EmberBook/node_modules/errorhandler/package.json
+65 verbose from cache /home/action/EmberBook/node_modules/express/package.json
+66 verbose from cache /home/action/EmberBook/node_modules/express-json/package.json
+67 verbose from cache /home/action/EmberBook/node_modules/express-session/package.json
+68 verbose from cache /home/action/EmberBook/node_modules/express3-handlebars/package.json
+69 verbose from cache /home/action/EmberBook/node_modules/grunt/package.json
+70 verbose from cache /home/action/EmberBook/node_modules/grunt-concurrent/package.json
+71 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-clean/package.json
+72 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-coffee/package.json
+73 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-compass/package.json
+74 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-concat/package.json
+75 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-connect/package.json
+76 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-copy/package.json
+77 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-cssmin/package.json
+78 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-htmlmin/package.json
+79 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-jshint/package.json
+80 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-uglify/package.json
+81 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-watch/package.json
+82 verbose from cache /home/action/EmberBook/node_modules/grunt-ember-templates/package.json
+83 verbose from cache /home/action/EmberBook/node_modules/grunt-mocha/package.json
+84 verbose from cache /home/action/EmberBook/node_modules/grunt-neuter/package.json
+85 verbose from cache /home/action/EmberBook/node_modules/grunt-open/package.json
+86 verbose from cache /home/action/EmberBook/node_modules/grunt-replace/package.json
+87 verbose from cache /home/action/EmberBook/node_modules/grunt-rev/package.json
+88 verbose from cache /home/action/EmberBook/node_modules/grunt-svgmin/package.json
+89 verbose from cache /home/action/EmberBook/node_modules/grunt-usemin/package.json
+90 verbose from cache /home/action/EmberBook/node_modules/handlebars/package.json
+91 verbose from cache /home/action/EmberBook/node_modules/jshint-stylish/package.json
+92 verbose from cache /home/action/EmberBook/node_modules/less-middleware/package.json
+93 verbose from cache /home/action/EmberBook/node_modules/load-grunt-tasks/package.json
+94 verbose from cache /home/action/EmberBook/node_modules/method-override/package.json
+95 verbose from cache /home/action/EmberBook/node_modules/mongoose/package.json
+96 verbose from cache /home/action/EmberBook/node_modules/morgan/package.json
+97 verbose from cache /home/action/EmberBook/node_modules/passport/package.json
+98 verbose from cache /home/action/EmberBook/node_modules/passport-local/package.json
+99 verbose from cache /home/action/EmberBook/node_modules/password-hash/package.json
+100 verbose from cache /home/action/EmberBook/node_modules/socket.io/package.json
+101 verbose from cache /home/action/EmberBook/node_modules/static-favicon/package.json
+102 verbose from cache /home/action/EmberBook/node_modules/time-grunt/package.json
+103 verbose already installed skipping grunt-contrib-uglify@~0.2.0 /home/action/EmberBook
+104 verbose already installed skipping grunt-contrib-copy@~0.4.1 /home/action/EmberBook
+105 verbose already installed skipping grunt-contrib-concat@~0.3.0 /home/action/EmberBook
+106 verbose already installed skipping grunt-contrib-compass@~0.5.0 /home/action/EmberBook
+107 verbose already installed skipping grunt-contrib-coffee@~0.7.0 /home/action/EmberBook
+108 verbose already installed skipping grunt-contrib-jshint@~0.6.3 /home/action/EmberBook
+109 verbose already installed skipping grunt-contrib-cssmin@~0.6.0 /home/action/EmberBook
+110 verbose already installed skipping grunt-contrib-connect@~0.3.0 /home/action/EmberBook
+111 verbose already installed skipping grunt-contrib-clean@~0.5.0 /home/action/EmberBook
+112 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /home/action/EmberBook
+113 verbose cache add [ 'grunt-contrib-imagemin@*', null ]
+114 verbose cache add name=undefined spec="grunt-contrib-imagemin@*" args=["grunt-contrib-imagemin@*",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'grunt-contrib-imagemin@*',
+115 verbose parsed url   path: 'grunt-contrib-imagemin@*',
+115 verbose parsed url   href: 'grunt-contrib-imagemin@*' }
+116 verbose cache add name="grunt-contrib-imagemin" spec="*" args=["grunt-contrib-imagemin","*"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '*',
+117 verbose parsed url   path: '*',
+117 verbose parsed url   href: '*' }
+118 verbose addNamed [ 'grunt-contrib-imagemin', '*' ]
+119 verbose addNamed [ null, '' ]
+120 verbose already installed skipping grunt-contrib-watch@~0.5.2 /home/action/EmberBook
+121 verbose already installed skipping grunt-rev@~0.1.0 /home/action/EmberBook
+122 silly lockFile 3cf1195c-grunt-contrib-imagemin grunt-contrib-imagemin@*
+123 verbose lock grunt-contrib-imagemin@* /home/action/.npm/3cf1195c-grunt-contrib-imagemin.lock
+124 verbose already installed skipping grunt-usemin@~0.1.12 /home/action/EmberBook
+125 verbose already installed skipping grunt-mocha@~0.4.1 /home/action/EmberBook
+126 verbose already installed skipping grunt-open@~0.2.0 /home/action/EmberBook
+127 silly addNameRange { name: 'grunt-contrib-imagemin', range: '', hasData: false }
+128 verbose already installed skipping grunt-svgmin@~0.2.0 /home/action/EmberBook
+129 verbose already installed skipping grunt-concurrent@~0.3.0 /home/action/EmberBook
+130 verbose url raw grunt-contrib-imagemin
+131 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+132 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+133 info trying registry request attempt 1 at 13:52:19
+134 verbose etag "CCDLY11PR3WAHFKMWI1G2LHU"
+135 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+136 verbose already installed skipping time-grunt@~0.1.1 /home/action/EmberBook
+137 verbose already installed skipping connect-livereload@~0.2.0 /home/action/EmberBook
+138 verbose already installed skipping load-grunt-tasks@~0.1.0 /home/action/EmberBook
+139 verbose already installed skipping grunt-replace@~0.4.4 /home/action/EmberBook
+140 verbose already installed skipping jshint-stylish@~0.1.3 /home/action/EmberBook
+141 verbose already installed skipping grunt-ember-templates@0.4.14 /home/action/EmberBook
+142 verbose already installed skipping grunt-neuter@~0.5.0 /home/action/EmberBook
+143 verbose already installed skipping express@4.x.x /home/action/EmberBook
+144 verbose already installed skipping less-middleware@* /home/action/EmberBook
+145 verbose already installed skipping handlebars@* /home/action/EmberBook
+146 verbose already installed skipping express3-handlebars@* /home/action/EmberBook
+147 verbose already installed skipping mongoose@3.8.x /home/action/EmberBook
+148 verbose already installed skipping passport-local@1.0.x /home/action/EmberBook
+149 verbose already installed skipping passport@0.2.x /home/action/EmberBook
+150 verbose already installed skipping connect-flash@0.1.x /home/action/EmberBook
+151 verbose already installed skipping coffee-script@1.7.x /home/action/EmberBook
+152 verbose already installed skipping connect-ensure-login@* /home/action/EmberBook
+153 verbose already installed skipping password-hash@* /home/action/EmberBook
+154 verbose cache add [ 'socket.io@latest', null ]
+155 verbose cache add name=undefined spec="socket.io@latest" args=["socket.io@latest",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'socket.io@latest',
+156 verbose parsed url   path: 'socket.io@latest',
+156 verbose parsed url   href: 'socket.io@latest' }
+157 verbose cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'latest',
+158 verbose parsed url   path: 'latest',
+158 verbose parsed url   href: 'latest' }
+159 verbose addNamed [ 'socket.io', 'latest' ]
+160 verbose addNamed [ null, null ]
+161 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+162 verbose lock socket.io@latest /home/action/.npm/d01f6c55-socket-io-latest.lock
+163 verbose already installed skipping static-favicon@1.0.x /home/action/EmberBook
+164 verbose already installed skipping morgan@1.0.x /home/action/EmberBook
+165 verbose already installed skipping cookie-parser@1.0.x /home/action/EmberBook
+166 verbose already installed skipping express-session@1.0.x /home/action/EmberBook
+167 verbose already installed skipping express-json@0.1.x /home/action/EmberBook
+168 verbose already installed skipping method-override@1.0.x /home/action/EmberBook
+169 verbose already installed skipping errorhandler@1.0.x /home/action/EmberBook
+170 verbose already installed skipping grunt@~0.4.1 /home/action/EmberBook
+171 info addNameTag [ 'socket.io', 'latest' ]
+172 verbose url raw socket.io
+173 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+174 verbose url resolved https://registry.npmjs.org/socket.io
+175 info trying registry request attempt 1 at 13:52:20
+176 verbose etag "1ZDNJM7OPNC3ZOJ4OWNXXCZLD"
+177 http GET https://registry.npmjs.org/socket.io
+178 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+179 silly registry.get cb [ 304,
+179 silly registry.get   { date: 'Thu, 08 May 2014 13:52:20 GMT',
+179 silly registry.get     server: 'Apache',
+179 silly registry.get     via: '1.1 varnish',
+179 silly registry.get     'last-modified': 'Thu, 08 May 2014 13:52:20 GMT',
+179 silly registry.get     'cache-control': 'max-age=1',
+179 silly registry.get     etag: '"CCDLY11PR3WAHFKMWI1G2LHU"',
+179 silly registry.get     'x-served-by': 'cache-at52-ATL',
+179 silly registry.get     'x-cache': 'MISS',
+179 silly registry.get     'x-cache-hits': '0',
+179 silly registry.get     'x-timer': 'S1399557140.123795271,VS0,VE22',
+179 silly registry.get     vary: 'Accept',
+179 silly registry.get     'content-length': '0',
+179 silly registry.get     'keep-alive': 'timeout=10, max=50',
+179 silly registry.get     connection: 'Keep-Alive' } ]
+180 verbose etag grunt-contrib-imagemin from cache
+181 silly addNameRange number 2 { name: 'grunt-contrib-imagemin', range: '', hasData: true }
+182 silly addNameRange versions [ 'grunt-contrib-imagemin',
+182 silly addNameRange   [ '0.1.0',
+182 silly addNameRange     '0.1.1',
+182 silly addNameRange     '0.1.2',
+182 silly addNameRange     '0.1.3',
+182 silly addNameRange     '0.1.4',
+182 silly addNameRange     '0.1.1-rc7',
+182 silly addNameRange     '0.1.1-rc8',
+182 silly addNameRange     '0.2.0',
+182 silly addNameRange     '0.2.1',
+182 silly addNameRange     '0.3.0',
+182 silly addNameRange     '0.4.0',
+182 silly addNameRange     '0.4.1',
+182 silly addNameRange     '0.5.0',
+182 silly addNameRange     '0.6.0',
+182 silly addNameRange     '0.6.1',
+182 silly addNameRange     '0.7.0' ] ]
+183 verbose addNamed [ 'grunt-contrib-imagemin', '0.7.0' ]
+184 verbose addNamed [ '0.7.0', '0.7.0' ]
+185 silly lockFile 84868ff2-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@0.7.0
+186 verbose lock grunt-contrib-imagemin@0.7.0 /home/action/.npm/84868ff2-grunt-contrib-imagemin-0-7-0.lock
+187 verbose read json /home/action/.npm/grunt-contrib-imagemin/0.7.0/package/package.json
+188 silly lockFile 84868ff2-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@0.7.0
+189 silly lockFile 84868ff2-grunt-contrib-imagemin-0-7-0 grunt-contrib-imagemin@0.7.0
+190 silly lockFile 3cf1195c-grunt-contrib-imagemin grunt-contrib-imagemin@*
+191 silly lockFile 3cf1195c-grunt-contrib-imagemin grunt-contrib-imagemin@*
+192 http 304 https://registry.npmjs.org/socket.io
+193 silly registry.get cb [ 304,
+193 silly registry.get   { date: 'Thu, 08 May 2014 13:52:20 GMT',
+193 silly registry.get     server: 'Apache',
+193 silly registry.get     via: '1.1 varnish',
+193 silly registry.get     'last-modified': 'Thu, 08 May 2014 13:52:20 GMT',
+193 silly registry.get     'cache-control': 'max-age=1',
+193 silly registry.get     etag: '"1ZDNJM7OPNC3ZOJ4OWNXXCZLD"',
+193 silly registry.get     'x-served-by': 'cache-at50-ATL',
+193 silly registry.get     'x-cache': 'HIT',
+193 silly registry.get     'x-cache-hits': '1',
+193 silly registry.get     'x-timer': 'S1399557140.129998684,VS0,VE100',
+193 silly registry.get     vary: 'Accept',
+193 silly registry.get     'content-length': '0',
+193 silly registry.get     'keep-alive': 'timeout=10, max=50',
+193 silly registry.get     connection: 'Keep-Alive' } ]
+194 verbose etag socket.io from cache
+195 verbose addNamed [ 'socket.io', '0.9.16' ]
+196 verbose addNamed [ '0.9.16', '0.9.16' ]
+197 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+198 verbose lock socket.io@0.9.16 /home/action/.npm/a7acce22-socket-io-0-9-16.lock
+199 verbose read json /home/action/.npm/socket.io/0.9.16/package/package.json
+200 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+201 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+202 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+203 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+204 info already installed socket.io@0.9.16
+205 silly resolved [ { name: 'grunt-contrib-imagemin',
+205 silly resolved     description: 'Minify images',
+205 silly resolved     version: '0.7.0',
+205 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+205 silly resolved     repository: { type: 'git', url: 'gruntjs/grunt-contrib-imagemin' },
+205 silly resolved     licenses: [ [Object] ],
+205 silly resolved     engines: { node: '>=0.10.0' },
+205 silly resolved     scripts: { test: 'grunt test' },
+205 silly resolved     dependencies:
+205 silly resolved      { async: '^0.7.0',
+205 silly resolved        chalk: '^0.4.0',
+205 silly resolved        imagemin: '^0.4.5',
+205 silly resolved        mkdirp: '^0.4.0',
+205 silly resolved        'pretty-bytes': '^0.1.0' },
+205 silly resolved     devDependencies:
+205 silly resolved      { grunt: '^0.4.0',
+205 silly resolved        'grunt-contrib-clean': '^0.5.0',
+205 silly resolved        'grunt-contrib-internal': '^0.4.6',
+205 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+205 silly resolved        'grunt-contrib-nodeunit': '^0.3.3',
+205 silly resolved        'time-grunt': '^0.3.1' },
+205 silly resolved     peerDependencies: { grunt: '^0.4.0' },
+205 silly resolved     keywords:
+205 silly resolved      [ 'gruntplugin',
+205 silly resolved        'compress',
+205 silly resolved        'gif',
+205 silly resolved        'image',
+205 silly resolved        'img',
+205 silly resolved        'jpeg',
+205 silly resolved        'jpg',
+205 silly resolved        'minify',
+205 silly resolved        'png' ],
+205 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+205 silly resolved     readme: '# grunt-contrib-imagemin v0.7.0 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-imagemin.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-imagemin)\n\n> Minify images\n\n\n\n## Getting Started\nThis plugin requires Grunt `^0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-contrib-imagemin --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\n```\n\n\n\n\n## Imagemin task\n_Run this task with the `grunt imagemin` command._\n\nMinify images using [imagemin](https://github.com/kevva/imagemin).\n\nComes bundled with the following optimizers:\n\n- [gifsicle](https://github.com/kevva/imagemin-gifsicle) — *Compress GIF images*\n- [jpegtran](https://github.com/kevva/imagemin-jpegtran) — *Compress JPEG images*\n- [optipng](https://github.com/kevva/imagemin-optipng) — *Compress PNG images*\n- [svgo](https://github.com/kevva/imagemin-svgo) — *Compress SVG images*\n\nWe recommend using [grunt-newer](https://github.com/tschaub/grunt-newer) to only process changed files as minifying images can be quite slow.\n\n### Options\n\nOptions will only apply to the relevant files, so you don\'t need separate targets for png/jpg.\n\n\n#### optimizationLevel *(png)*\n\nType: `Number`  \nDefault: `3`\n\nSelect optimization level between `0` and `7`.\n\n> The optimization level 0 enables a set of optimization operations that require minimal effort. There will be no changes to image attributes like bit depth or color type, and no recompression of existing IDAT datastreams. The optimization level 1 enables a single IDAT compression trial. The trial chosen is what. OptiPNG thinks it’s probably the most effective. The optimization levels 2 and higher enable multiple IDAT compression trials; the higher the level, the more trials.\n\nLevel and trials:\n\n1. 1 trial\n2. 8 trials\n3. 16 trials\n4. 24 trials\n5. 48 trials\n6. 120 trials\n7. 240 trials\n\n\n#### progressive *(jpg)*\n\nType: `Boolean`  \nDefault: `true`\n\nLossless conversion to progressive.\n\n\n#### interlaced *(gif)*\n\nType: `Boolean`  \nDefault: `true`\n\nInterlace gif for progressive rendering.\n\n\n#### use\n\nType: `Array`  \nDefault: `null`\n\nAdditional [plugins](https://npmjs.org/keyword/imageminplugin) to use with imagemin.\n\n#### Example config\n\nYou can either map your files statically or [dynamically](http://gruntjs.com/configuring-tasks#building-the-files-object-dynamically).\n\n```js\nvar mozjpeg = require(\'imagemin-mozjpeg\');\n\ngrunt.initConfig({\n  imagemin: {                          // Task\n    static: {                          // Target\n      options: {                       // Target options\n        optimizationLevel: 3,\n        use: [mozjpeg()]\n      },\n      files: {                         // Dictionary of files\n        \'dist/img.png\': \'src/img.png\', // \'destination\': \'source\'\n        \'dist/img.jpg\': \'src/img.jpg\',\n        \'dist/img.gif\': \'src/img.gif\'\n      }\n    },\n    dynamic: {                         // Another target\n      files: [{\n        expand: true,                  // Enable dynamic expansion\n        cwd: \'src/\',                   // Src matches are relative to this path\n        src: [\'**/*.{png,jpg,gif}\'],   // Actual patterns to match\n        dest: \'dist/\'                  // Destination path prefix\n      }]\n    }\n  }\n});\n\ngrunt.loadNpmTasks(\'grunt-contrib-imagemin\');\ngrunt.registerTask(\'default\', [\'imagemin\']);\n```\n\n\n## Release History\n\n * 2014-04-29   v0.7.0   Update "imagemin" to 0.4\n * 2014-04-01   v0.6.1   Fix problem with corrupt images being created\n * 2014-03-28   v0.6.0   Updated "imagemin" to 0.2 Added percentage to size saved view - fixes cache option removed. Adds "pretty-bytes".\n * 2014-01-13   v0.5.0   Extract the logic into an external lib [imagemin](https://github.com/kevva/imagemin).\n * 2014-01-08   v0.4.1   Prevent "Maximum call stack size exceeded". Speed up loading this task by lazy requiring bin deps.\n * 2013-11-22   v0.4.0   The `pngquant` option is now `false` by default instead of `true`.\n * 2013-09-09   v0.3.0   Add `interlace` option for gif files.\n * 2013-08-16   v0.2.0   Add `gifsicle` and `pngquant`. Cache images so only changed images are optimized. Default `optimizationLevel` to `7` and `progressive` to `true`.\n * 2013-04-10   v0.1.4   Fix exception when running in verbose mode.\n * 2013-04-05   v0.1.3   Fix OptiPNG not being able to overwrite file. Allow overwriting src when dest/src is the same. Limit to 10 concurrent optimizations.\n * 2013-02-22   v0.1.2   Fix OptiPNG not working on some systems. Prevent OptiPNG from producing .bak files.\n * 2013-02-15   v0.1.1   First official release for Grunt 0.4.0.\n * 2013-01-30   v0.1.1rc8   Fix task not creating destination folders\n * 2013-01-30   v0.1.1rc7   Updating to work with grunt v0.4.0rc7. Switching to this.files api.\n * 2012-11-01   v0.1.0   Initial release.\n\n---\n\nTask submitted by [Sindre Sorhus](http://github.com/sindresorhus)\n\n*This file was generated on Tue Apr 29 2014 16:48:53.*\n',
+205 silly resolved     readmeFilename: 'README.md',
+205 silly resolved     _id: 'grunt-contrib-imagemin@0.7.0',
+205 silly resolved     _from: 'grunt-contrib-imagemin@*' } ]
+206 info install grunt-contrib-imagemin@0.7.0 into /home/action/EmberBook
+207 info installOne grunt-contrib-imagemin@0.7.0
+208 verbose from cache /home/action/.npm/grunt-contrib-imagemin/0.7.0/package/package.json
+209 info /home/action/EmberBook/node_modules/grunt-contrib-imagemin unbuild
+210 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-imagemin/package.json
+211 verbose tar unpack /home/action/.npm/grunt-contrib-imagemin/0.7.0/package.tgz
+212 silly lockFile 81d268ad-e-modules-grunt-contrib-imagemin tar:///home/action/EmberBook/node_modules/grunt-contrib-imagemin
+213 verbose lock tar:///home/action/EmberBook/node_modules/grunt-contrib-imagemin /home/action/.npm/81d268ad-e-modules-grunt-contrib-imagemin.lock
+214 silly lockFile a967ea09-ntrib-imagemin-0-7-0-package-tgz tar:///home/action/.npm/grunt-contrib-imagemin/0.7.0/package.tgz
+215 verbose lock tar:///home/action/.npm/grunt-contrib-imagemin/0.7.0/package.tgz /home/action/.npm/a967ea09-ntrib-imagemin-0-7-0-package-tgz.lock
+216 silly gunzTarPerm modes [ '755', '644' ]
+217 silly gunzTarPerm extractEntry package.json
+218 silly gunzTarPerm extractEntry README.md
+219 silly gunzTarPerm extractEntry LICENSE-MIT
+220 silly gunzTarPerm extractEntry tasks/imagemin.js
+221 verbose read json /home/action/EmberBook/node_modules/grunt-contrib-imagemin/package.json
+222 silly lockFile 81d268ad-e-modules-grunt-contrib-imagemin tar:///home/action/EmberBook/node_modules/grunt-contrib-imagemin
+223 silly lockFile 81d268ad-e-modules-grunt-contrib-imagemin tar:///home/action/EmberBook/node_modules/grunt-contrib-imagemin
+224 silly lockFile a967ea09-ntrib-imagemin-0-7-0-package-tgz tar:///home/action/.npm/grunt-contrib-imagemin/0.7.0/package.tgz
+225 silly lockFile a967ea09-ntrib-imagemin-0-7-0-package-tgz tar:///home/action/.npm/grunt-contrib-imagemin/0.7.0/package.tgz
+226 info preinstall grunt-contrib-imagemin@0.7.0
+227 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-imagemin/package.json
+228 verbose readDependencies using package.json deps
+229 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-imagemin/package.json
+230 verbose readDependencies using package.json deps
+231 verbose cache add [ 'async@^0.7.0', null ]
+232 verbose cache add name=undefined spec="async@^0.7.0" args=["async@^0.7.0",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'async@^0.7.0',
+233 verbose parsed url   path: 'async@^0.7.0',
+233 verbose parsed url   href: 'async@^0.7.0' }
+234 verbose cache add name="async" spec="^0.7.0" args=["async","^0.7.0"]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '^0.7.0',
+235 verbose parsed url   path: '^0.7.0',
+235 verbose parsed url   href: '^0.7.0' }
+236 verbose addNamed [ 'async', '^0.7.0' ]
+237 verbose addNamed [ null, null ]
+238 silly lockFile 7d27af2a-async-0-7-0 async@^0.7.0
+239 verbose lock async@^0.7.0 /home/action/.npm/7d27af2a-async-0-7-0.lock
+240 verbose cache add [ 'chalk@^0.4.0', null ]
+241 verbose cache add name=undefined spec="chalk@^0.4.0" args=["chalk@^0.4.0",null]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: 'chalk@^0.4.0',
+242 verbose parsed url   path: 'chalk@^0.4.0',
+242 verbose parsed url   href: 'chalk@^0.4.0' }
+243 verbose cache add name="chalk" spec="^0.4.0" args=["chalk","^0.4.0"]
+244 verbose parsed url { protocol: null,
+244 verbose parsed url   slashes: null,
+244 verbose parsed url   auth: null,
+244 verbose parsed url   host: null,
+244 verbose parsed url   port: null,
+244 verbose parsed url   hostname: null,
+244 verbose parsed url   hash: null,
+244 verbose parsed url   search: null,
+244 verbose parsed url   query: null,
+244 verbose parsed url   pathname: '^0.4.0',
+244 verbose parsed url   path: '^0.4.0',
+244 verbose parsed url   href: '^0.4.0' }
+245 verbose addNamed [ 'chalk', '^0.4.0' ]
+246 verbose addNamed [ null, null ]
+247 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+248 verbose lock chalk@^0.4.0 /home/action/.npm/b2f4396d-chalk-0-4-0.lock
+249 info addNameTag [ 'async', '^0.7.0' ]
+250 info addNameTag [ 'chalk', '^0.4.0' ]
+251 verbose cache add [ 'pretty-bytes@^0.1.0', null ]
+252 verbose cache add name=undefined spec="pretty-bytes@^0.1.0" args=["pretty-bytes@^0.1.0",null]
+253 verbose parsed url { protocol: null,
+253 verbose parsed url   slashes: null,
+253 verbose parsed url   auth: null,
+253 verbose parsed url   host: null,
+253 verbose parsed url   port: null,
+253 verbose parsed url   hostname: null,
+253 verbose parsed url   hash: null,
+253 verbose parsed url   search: null,
+253 verbose parsed url   query: null,
+253 verbose parsed url   pathname: 'pretty-bytes@^0.1.0',
+253 verbose parsed url   path: 'pretty-bytes@^0.1.0',
+253 verbose parsed url   href: 'pretty-bytes@^0.1.0' }
+254 verbose cache add name="pretty-bytes" spec="^0.1.0" args=["pretty-bytes","^0.1.0"]
+255 verbose parsed url { protocol: null,
+255 verbose parsed url   slashes: null,
+255 verbose parsed url   auth: null,
+255 verbose parsed url   host: null,
+255 verbose parsed url   port: null,
+255 verbose parsed url   hostname: null,
+255 verbose parsed url   hash: null,
+255 verbose parsed url   search: null,
+255 verbose parsed url   query: null,
+255 verbose parsed url   pathname: '^0.1.0',
+255 verbose parsed url   path: '^0.1.0',
+255 verbose parsed url   href: '^0.1.0' }
+256 verbose addNamed [ 'pretty-bytes', '^0.1.0' ]
+257 verbose addNamed [ null, null ]
+258 silly lockFile e9c8a3c5-pretty-bytes-0-1-0 pretty-bytes@^0.1.0
+259 verbose lock pretty-bytes@^0.1.0 /home/action/.npm/e9c8a3c5-pretty-bytes-0-1-0.lock
+260 verbose cache add [ 'imagemin@^0.4.5', null ]
+261 verbose cache add name=undefined spec="imagemin@^0.4.5" args=["imagemin@^0.4.5",null]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'imagemin@^0.4.5',
+262 verbose parsed url   path: 'imagemin@^0.4.5',
+262 verbose parsed url   href: 'imagemin@^0.4.5' }
+263 verbose cache add name="imagemin" spec="^0.4.5" args=["imagemin","^0.4.5"]
+264 verbose parsed url { protocol: null,
+264 verbose parsed url   slashes: null,
+264 verbose parsed url   auth: null,
+264 verbose parsed url   host: null,
+264 verbose parsed url   port: null,
+264 verbose parsed url   hostname: null,
+264 verbose parsed url   hash: null,
+264 verbose parsed url   search: null,
+264 verbose parsed url   query: null,
+264 verbose parsed url   pathname: '^0.4.5',
+264 verbose parsed url   path: '^0.4.5',
+264 verbose parsed url   href: '^0.4.5' }
+265 verbose addNamed [ 'imagemin', '^0.4.5' ]
+266 verbose addNamed [ null, null ]
+267 silly lockFile 8cb07714-imagemin-0-4-5 imagemin@^0.4.5
+268 verbose lock imagemin@^0.4.5 /home/action/.npm/8cb07714-imagemin-0-4-5.lock
+269 verbose cache add [ 'mkdirp@^0.4.0', null ]
+270 verbose cache add name=undefined spec="mkdirp@^0.4.0" args=["mkdirp@^0.4.0",null]
+271 verbose parsed url { protocol: null,
+271 verbose parsed url   slashes: null,
+271 verbose parsed url   auth: null,
+271 verbose parsed url   host: null,
+271 verbose parsed url   port: null,
+271 verbose parsed url   hostname: null,
+271 verbose parsed url   hash: null,
+271 verbose parsed url   search: null,
+271 verbose parsed url   query: null,
+271 verbose parsed url   pathname: 'mkdirp@^0.4.0',
+271 verbose parsed url   path: 'mkdirp@^0.4.0',
+271 verbose parsed url   href: 'mkdirp@^0.4.0' }
+272 verbose cache add name="mkdirp" spec="^0.4.0" args=["mkdirp","^0.4.0"]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: '^0.4.0',
+273 verbose parsed url   path: '^0.4.0',
+273 verbose parsed url   href: '^0.4.0' }
+274 verbose addNamed [ 'mkdirp', '^0.4.0' ]
+275 verbose addNamed [ null, null ]
+276 silly lockFile 51192039-mkdirp-0-4-0 mkdirp@^0.4.0
+277 verbose lock mkdirp@^0.4.0 /home/action/.npm/51192039-mkdirp-0-4-0.lock
+278 info addNameTag [ 'pretty-bytes', '^0.1.0' ]
+279 info addNameTag [ 'imagemin', '^0.4.5' ]
+280 info addNameTag [ 'mkdirp', '^0.4.0' ]
+281 verbose url raw async
+282 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+283 verbose url resolved https://registry.npmjs.org/async
+284 info trying registry request attempt 1 at 13:52:20
+285 verbose etag "DAV43NCPPTFU3DWXYG6B7WZ9C"
+286 http GET https://registry.npmjs.org/async
+287 verbose registry.get chalk not expired, no request
+288 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+289 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+290 verbose url raw pretty-bytes
+291 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-bytes' ]
+292 verbose url resolved https://registry.npmjs.org/pretty-bytes
+293 info trying registry request attempt 1 at 13:52:20
+294 verbose etag "8HDLKRVY5CLL9HTSLO3MPTZFW"
+295 http GET https://registry.npmjs.org/pretty-bytes
+296 verbose url raw imagemin
+297 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin' ]
+298 verbose url resolved https://registry.npmjs.org/imagemin
+299 info trying registry request attempt 1 at 13:52:20
+300 verbose etag "DPOMBS80B32K9Y6JD6QEQCINA"
+301 http GET https://registry.npmjs.org/imagemin
+302 verbose url raw mkdirp
+303 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+304 verbose url resolved https://registry.npmjs.org/mkdirp
+305 info trying registry request attempt 1 at 13:52:20
+306 verbose etag "5TIHXRX5HSIYV6EU4PXR4JW26"
+307 http GET https://registry.npmjs.org/mkdirp
+308 verbose about to build /home/action/EmberBook/node_modules/grunt-contrib-imagemin
+309 info /home/action/EmberBook/node_modules/grunt-contrib-imagemin unbuild
+310 verbose from cache /home/action/EmberBook/node_modules/grunt-contrib-imagemin/package.json
+311 info preuninstall grunt-contrib-imagemin@0.7.0
+312 info uninstall grunt-contrib-imagemin@0.7.0
+313 verbose true,/home/action/EmberBook/node_modules,/home/action/EmberBook/node_modules unbuild grunt-contrib-imagemin@0.7.0
+314 info postuninstall grunt-contrib-imagemin@0.7.0
+315 error Error: No compatible version found: chalk@'^0.4.0'
+315 error Valid install targets:
+315 error ["0.1.0","0.1.1","0.2.0","0.2.1","0.3.0","0.4.0"]
+315 error     at installTargetsError (/home/action/.nvm/v0.10.11/lib/node_modules/npm/lib/cache.js:719:10)
+315 error     at /home/action/.nvm/v0.10.11/lib/node_modules/npm/lib/cache.js:641:10
+315 error     at RegClient.get_ (/home/action/.nvm/v0.10.11/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:101:14)
+315 error     at RegClient.<anonymous> (/home/action/.nvm/v0.10.11/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:37:12)
+315 error     at fs.js:266:14
+315 error     at Object.oncomplete (fs.js:107:15)
+316 error If you need help, you may report this log at:
+316 error     <http://github.com/isaacs/npm/issues>
+316 error or email it to:
+316 error     <npm-@googlegroups.com>
+317 error System Linux 3.13.4
+318 error command "/home/action/.nvm/v0.10.11/bin/node" "/home/action/.nvm/v0.10.11/bin/npm" "install"
+319 error cwd /home/action/EmberBook
+320 error node -v v0.10.11
+321 error npm -v 1.2.30
+322 verbose exit [ 1, true ]
